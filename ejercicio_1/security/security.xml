@@ -1,0 +1,34 @@
+<odoo>
+
+    <record id="model_alumnos_alumnos_group" model="ir.model.access">
+        <field name="name">alumnos.alumnos</field>
+        <field name="model_id" ref="ejercicio_1.model_alumnos_alumnos" />
+        <field name="group_id" ref="base.group_system" />
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <!-- <field name="perm_unlink" eval="1"/> -->
+    </record>
+
+    <record id="model_profesor_profesor_group" model="ir.model.access">
+        <field name="name">profesor.profesor</field>
+        <field name="model_id" ref="ejercicio_1.model_profesor_profesor" />
+        <field name="group_id" ref="base.group_system" />
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <!-- <field name="perm_unlink" eval="1"/> -->
+    </record>
+
+    <record id="model_clases_clases_group" model="ir.model.access">
+        <field name="name">clases.clases</field>
+        <field name="model_id" ref="ejercicio_1.model_clases_clases" />
+        <field name="group_id" ref="base.group_system" />
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <!-- <field name="perm_unlink" eval="1"/> -->
+    </record>
+
+
+</odoo>

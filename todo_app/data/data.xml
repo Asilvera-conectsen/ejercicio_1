@@ -1,0 +1,22 @@
+<odoo>
+    <record id="todo_app.tarea_1" model="todo.app">
+        <field name="name">CONECTSEN_V001</field>
+        <field name="description">soporte@conectsen.com</field>
+        <field name="state">En movimiento</field>
+    </record>
+    <record id="todo_app.tarea_2" model="todo.app">
+        <field name="name">CONECTSEN_V002</field>
+        <field name="description">soporte@conectsen.com</field>
+        <field name="state">Parado</field>
+    </record>
+    <record id="todo_app.tarea_3" model="todo.app">
+        <field name="name">CONECTSEN_V003</field>
+        <field name="description">soporte@conectsen.com</field>
+        <field name="state">Desconocido</field>
+    </record>
+    <record id="todo_app.tarea_4" model="todo.app">
+        <field name="name">CONECTSEN_V004</field>
+        <field name="description">soporte@conectsen.com</field>
+        <field name="state">En movimiento</field>
+    </record>
+</odoo>

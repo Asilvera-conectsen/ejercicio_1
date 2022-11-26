@@ -1,0 +1,55 @@
+<odoo>
+  <data>
+    
+    <record id="model_alumnos_alumnos_action" model="ir.actions.act_window">
+      <field name="name">Alumnos</field>
+      <field name="res_model">alumnos.alumnos</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="model_profesor_profesor_action" model="ir.actions.act_window">
+      <field name="name">Profesores</field>
+      <field name="res_model">profesor.profesor</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="model_clases_clases_action" model="ir.actions.act_window">
+      <field name="name">Clases</field>
+      <field name="res_model">clases.clases</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+      id="prof_alumn"
+      name="Escuelita"
+      action="ejercicio_1.model_alumnos_alumnos_action"
+      sequence="10"/>
+    
+    <menuitem
+      id="model_escuela_menu"
+      name="Escuela"
+      parent="ejercicio_1.prof_alumn"
+      sequence="1"/>
+
+    <menuitem
+      id="model_alumnos_menu"
+      name="Alumnos"
+      parent="ejercicio_1.model_escuela_menu"
+      action="model_alumnos_alumnos_action"
+      sequence="1"/>
+
+    <menuitem
+      id="model_profesores_menu"
+      name="Profesores"
+      parent="ejercicio_1.model_escuela_menu"
+      action="model_profesor_profesor_action"
+      sequence="2"/>
+
+    <menuitem
+      id="model_clases_menu"
+      name="Clases"
+      parent="ejercicio_1.model_escuela_menu"
+      action="model_clases_clases_action"
+      sequence="3"/>
+  </data>
+</odoo>

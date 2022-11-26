@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ejercicio_1_ejercicio_1,ejercicio_1.ejercicio_1,model_ejercicio_1_ejercicio_1,base.group_user,1,1,1,1
+access_alumnos_alumnos,access_alumnos_alumnos,model_alumnos_alumnos,base.group_user,1,1,1,1
+access_profesor_profesor,access_profesor_profesor,model_profesor_profesor,base.group_user,1,1,1,1
+access_clases_clases,access_clases_clases,model_clases_clases,base.group_user,1,1,1,1
